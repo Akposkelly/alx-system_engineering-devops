@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Enter the input: " input; updated_input="${input//A/Z}"; updated_input="${updated_input//c/e}"; echo "$updated_input"
+tr "A" "Z" | tr "c" "e"
